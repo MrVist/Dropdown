@@ -1,0 +1,35 @@
+.my-dropdown-toggle {
+    width: 100px;
+    height: 40px;
+    background: #247eb9;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.my-dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+
+.my-dropdown-ul {
+    position: absolute;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.my-dropdown-ul li {
+	position:relative;
+    width: 100px;
+    height: 40px;
+    background: #247eb9;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    list-style: none;
+}
